@@ -1,0 +1,14 @@
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.deps.json
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.dll
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ref\ToDoApp.dll
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.pdb
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.csprojAssemblyReference.cache
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.AssemblyInfoInputs.cache
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.AssemblyInfo.cs
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.csproj.CoreCompileInputs.cache
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\XamlC.stamp
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.dll
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ref\ToDoApp.dll
+G:\Projects\Work\Android\ToDoAppXamarin\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.pdb
