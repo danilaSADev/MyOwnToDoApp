@@ -14,5 +14,12 @@ namespace ToDoApp
         {
             InitializeComponent();
         }
+
+        private int counter = 0;
+        void CloseButton(object sender, System.EventArgs e)
+        {
+            counter++;
+            ((Button)sender).Text = $"{counter} click!";
+        }
     }
 }

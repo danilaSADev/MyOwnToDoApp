@@ -29,5 +29,6 @@ namespace ToDoApp.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
 }

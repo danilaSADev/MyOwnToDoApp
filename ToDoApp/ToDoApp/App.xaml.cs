@@ -13,6 +13,7 @@ namespace ToDoApp
             MainPage = new MainPage();
         }
 
+
         protected override void OnStart()
         {
         }
