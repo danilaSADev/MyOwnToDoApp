@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TasksLibrary"
              x:Class="ToDoApp.MainPage">
 
     <StackLayout>
@@ -8,10 +8,30 @@
             <Label Text="Welcome to To-Do App!" HorizontalTextAlignment="Start" CharacterSpacing="1.5" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Create your first task right now!" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Just tap a button 'Create' to initialize new task." TextColor="#aaaaaa" FontSize="16" Padding="30,0,30,0"/>
-
-        <Button Clicked="CloseButton"></Button>
-        
+        <Label Text="Just tap a button 'New' to initialize new task." TextColor="#aaaaaa" FontSize="16" Padding="30,0,30,0"/>
+        <ListView x:Name="tasksList" 
+                  ItemsSource="{Binding Tasks}"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Description}"></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="New" Clicked="CreateNewTask"/>
+        <!-- <Grid Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Text="New" Grid.Column="0" />
+            <Button Text="Edit" Grid.Column="1" />
+            <Button Text="Delete" Grid.Column="2" />
+        </> -->
     </StackLayout>
     
 
